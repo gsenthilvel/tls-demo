@@ -80,6 +80,7 @@ class Program
     }
     static void Main(string[] args)
     {
+        // Invoke the methods to demonstrate TLS 1.2 and 1.3
         TLS2DemoMethod().Wait();
         TLS3DemoMethod().Wait();
     }
